@@ -25,6 +25,18 @@ section {
     background-color: rgba(121, 150, 184, 0.301);
 }  
 
-footer{
-    background-color: beige;
-}
+footer {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+    border-radius: 10px 20px 30px 40px;    
+  }
+
+section {
+    font-size: 15px;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+  }
