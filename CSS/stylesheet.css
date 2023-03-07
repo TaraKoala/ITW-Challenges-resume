@@ -1,13 +1,30 @@
-#doc {
-  background-color: blue;
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
 }
-.container {
-  background-color: antiquewhite;
+header {
+  background-color: #D1EEEE;
+  color: #212e2e;
 }
-.menu {
-  background-color: aquamarine;
+section {
+  display: flexbox;
+  background-color: #C6C6C6;
 }
+
 img {
-  border-radius: 50%;
-  padding: ;
-}
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+.center {
+    display: flex;
+  }
+
+footer {
+  font-size: 15px;
+  background-color: #ccc;
+  margin: 50px;
+  padding: auto;   
+  }
