@@ -5,11 +5,11 @@ body {
 }
 header {
   background-color: #D1EEEE;
+  background-image: url(images/newbackground.jpg);
   color: #212e2e;
   display: flex;
   padding: 10px;
 }
-
 img {
   border-radius: 50%;
   width: 200px;
