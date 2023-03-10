@@ -1,39 +1,70 @@
 body {
-  background-color: rgb(238, 238, 238);
+  background-color: #FFF7D6;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
 }
+
 header {
-  background-color: #D1EEEE;
+  background-color: #0d3d3d;
   background-image: url(images/newbackground.jpg);
-  color: #212e2e;
+  color: #FFF7D6;
   display: flex;
-  padding: 10px;
+  padding: 20px;
 }
+
 img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FFF7D6;
+}
+
+.heading-text{
+  display: grid;
+  margin: 20px;
+  padding-left: 40px;
 }
 
 .menu {
   position: sticky;
   top: 0px;
   padding: 40px;
-  }
+}
 
 main {
   display: flex;
 }
 
 aside {
-  background-color: #C6C6C6;
+  background-color: #57bea6;
+}
+
+.introduction{
+  margin: 10px;
+}
+
+article{
+  margin: 30px;
+  padding: 20px;
+}
+
+section{
+  display: grid;
+  justify-content: space-between;
+  margin-right: 40px;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  background-color: #ccc;
+  background-color: #0D3D3D;
+  color: #FFF7D6;
   padding: auto;   
-  }
+}
+.linkedimg{
+  width: 80px;
+  height: 80px;
+}
