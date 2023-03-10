@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
 </head>
 <body>
-    <header>
+    <header class="hero-image">
         <picture>
-            <sourcemedia="(max-width: 650px)"src set="images/thimage3.jpeg">
-            <sourcemedia="(max-width: 1000px)"src set="images/thimage2.jpeg">
-            <img src="images/thimage1.jpeg"alt="person on a bridge">
+            <source srcset="images/thimage3.jpeg" media="(max-width: 600px)">
+            <source srcset="images/thimage1.jpeg" media="(max-width: 1500px)">
+            <img src="images/thimage2.jpeg" alt="profile image" style="max-width:100%;height:auto;">
         </picture>
         <div class="heading-text">
-            <h1 >Tara Hendricks</h1>
+            <h1 style="font-size:5vw" >Tara Hendricks</h1>
             <p>Junior Web developer | Student of life</p>
         </div>
     </header>
