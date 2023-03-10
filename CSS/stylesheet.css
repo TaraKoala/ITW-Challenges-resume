@@ -57,14 +57,27 @@ section{
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   font-size: 15px;
   background-color: #0D3D3D;
   color: #FFF7D6;
-  padding: auto;   
+  padding: 20px;  
 }
 .linkedimg{
   width: 80px;
   height: 80px;
+  margin: 50px;
+  justify-content: center;
+  
+}
+
+.contactme{
+  display: flex;
+}
+
+.icon{
+  flex-direction: row;
+}
+div{
+  padding-top: 10px;
 }

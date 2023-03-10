@@ -75,17 +75,43 @@
        
     <footer>
         <h2>Contact Details</h2>
-        <a href="https://www.linkedin.com/feed/"><img src="images/linkedin1.png" alt="linked in" class="linkedimg"></a>
-        <form action="https://submit.my.form/taradecodehendricks@gmail.com" method="POST">
-            <h4>Leave a message</h4>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" required>
-            <label for="mail">Email:</label>
-            <input type="mail" id="mail" name="user_mail">
-            <label for="msg">Message:</label>
-            <textarea name="user_message" id="msg"></textarea>
-            <input type="submit">
-          </form>
+        <div class="contactme">
+            <a href="https://www.linkedin.com/feed/"><img src="images/linkedin1.png" alt="linked in" class="linkedimg"></a>
+            <form action="https://formsubmit.co/taradecodehendricks@gmail.com" method="POST">
+                <h4>Get in touch</h4>
+                <div>
+                    <label for="name" required>Name:</label>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+                <div>
+                    <label for="mail" required>Email:</label>
+                    <input type="mail" id="mail" name="user_mail" required>
+                        
+                </div>
+                <div>
+                    <p>Rate my web design skills:</p>
+                </div>
+                <div>
+                    <input type="radio" name="rating" value="Great" required>
+                    <label for="rating">Amazing!</label>
+                    <input type="radio" name="rating" value="Okay">
+                    <label for="rating">It's okay</label>
+                    <input type="radio" name="rating" value="meh">
+                    <label for="rating">Meh</label>
+                    <input type="radio" name="rating" value="Poor">
+                    <label for="rating">You need work, girl.</label>
+                </div>
+                <div>
+                    <label for="msg">Leave me a message:</label>
+                </div>
+                <div>
+                    <textarea name="user_message" id="msg"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
     </footer>
     
 </body>
