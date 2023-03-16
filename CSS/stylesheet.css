@@ -169,4 +169,7 @@ div{
     color: #FFF7D6;
     padding: 15px; 
   }
+  .contactme{
+    display: flex;
+  }
 } 
